@@ -6,9 +6,7 @@
     "repository": "git@github.com:DeX3/restart-nodemon.git",
     "homepage": "https://github.com/DeX3/restart-nodemon",
     "issues": "https://github.com/DeX3/restart-nodemon/issues",
-    "bin": {
-        "restart-nodemon": "lib/restart-nodemon.js"
-    },
+    "bin": "./lib/restart-nodemon.js",
     "scripts": {
         "compile": "tsc -p tsconfig.json",
         "build": "run-s clean compile",
