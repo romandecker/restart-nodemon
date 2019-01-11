@@ -4,14 +4,20 @@
     "description": "Restart another running nodemon instance by sending SIGHUP",
     "main": "lib/restart-nodemon.js",
     "repository": "git@github.com:DeX3/restart-nodemon.git",
+    "homepage": "https://github.com/DeX3/restart-nodemon",
+    "issues": "https://github.com/DeX3/restart-nodemon/issues",
+    "bin": {
+        "restart-nodemon": "lib/restart-nodemon.js"
+    },
     "scripts": {
         "compile": "tsc -p tsconfig.json",
         "build": "run-s clean compile",
         "clean": "rimraf lib/",
         "lint": "tslint -p tsconfig.json",
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "prepublish": "run-s build"
     },
-    "author": "Roman Decker&lt;roman.decker@gmail.com&gt;",
+    "author": "Roman Decker<roman.decker@gmail.com>",
     "license": "ISC",
     "devDependencies": {
         "@types/debug": "^0.0.31",

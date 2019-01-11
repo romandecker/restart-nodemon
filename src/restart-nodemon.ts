@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import * as debug from 'debug';
 import * as touch from 'touch';
 import * as yargs from 'yargs';
