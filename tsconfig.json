@@ -12,7 +12,12 @@
         "outDir": "./lib",
         "rootDir": "./src",
         "skipLibCheck": true,
-        "lib": ["es7"]
+        "lib": ["es7"],
+        "typeRoots": ["node_modules/@types", "typings"],
+        "baseUrl": "./",
+        "paths": {
+            "*": ["./typings/*"]
+        }
     },
     "include": ["src/**/*"],
     "exclude": ["node_modules", "**/*.spec.ts"]
