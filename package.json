@@ -18,23 +18,23 @@
     "author": "Roman Decker<roman.decker@gmail.com>",
     "license": "ISC",
     "devDependencies": {
-        "@types/debug": "^0.0.31",
-        "@types/node": "^10.12.18",
+        "@types/debug": "^4.1.4",
+        "@types/node": "^12.0.12",
         "@types/touch": "^3.1.1",
-        "@types/yargs": "^12.0.5",
-        "jest": "^23.6.0",
+        "@types/yargs": "^13.0.0",
+        "jest": "^24.8.0",
         "npm-run-all": "^4.1.5",
-        "prettier": "^1.15.3",
+        "prettier": "^1.18.2",
         "rimraf": "^2.6.3",
-        "ts-jest": "^23.10.5",
-        "ts-node": "^7.0.1",
-        "tslint": "^5.12.1",
-        "tslint-config-prettier": "^1.17.0",
-        "typescript": "^3.2.2"
+        "ts-jest": "^24.0.2",
+        "ts-node": "^8.3.0",
+        "tslint": "^5.18.0",
+        "tslint-config-prettier": "^1.18.0",
+        "typescript": "^3.5.2"
     },
     "dependencies": {
         "debug": "^4.1.1",
         "touch": "^3.1.0",
-        "yargs": "^12.0.5"
+        "yargs": "^13.2.4"
     }
 }
