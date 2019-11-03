@@ -1,6 +1,6 @@
 {
     "name": "restart-nodemon",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "description": "Restart another running nodemon instance by sending SIGHUP",
     "main": "lib/restart-nodemon.js",
     "repository": "git@github.com:DeX3/restart-nodemon.git",
